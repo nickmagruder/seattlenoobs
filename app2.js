@@ -1,9 +1,9 @@
-var userMovie1 = prompt ('Please Enter #1 Movie');
-var userMovie2 = prompt ('Please Enter #2 Movie');
-var userMovie3 = prompt ('Please Enter #3 Movie');
+var userFood1 = prompt ('Please Enter #1 Favorite Food');
+var userFood2 = prompt ('Please Enter #2 Favorite Food');
+var userFood3 = prompt ('Please Enter #6 Favorite Food');
 
 document.write (
-    '<li>' + userMovie1 + </li> +
-    '<li>' + userMovie2 + </li> +
-    '<li>' + userMovie3 + </li> 
+'<li>' + '<a href="food.jpg">' + userFood1 + '</a>' + '</li>' +
+'<li>' + '<a href="food.jpg">' + userFood2 + '</a>' + '</li>' +
+'<li>' + '<a href="food.jpg">' + userFood3 + '</a>' + '</li>'
 )
